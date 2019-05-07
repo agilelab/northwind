@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E648882F-C592-40FD-B12D-764E825EEB5D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Northwind.WinUI</RootNamespace>
+    <AssemblyName>Northwind.WinUI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Publish\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Publish\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EAS.Data, Version=5.0.0.0, Culture=neutral, PublicKeyToken=a550803c4cd9dbb5, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Publish\EAS.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="EAS.Data.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a550803c4cd9dbb5, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Publish\EAS.Data.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="EAS.Explorer, Version=5.0.0.0, Culture=neutral, PublicKeyToken=a550803c4cd9dbb5, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Publish\EAS.Explorer.dll</HintPath>
+    </Reference>
+    <Reference Include="EAS.Explorer.Entities, Version=5.0.0.0, Culture=neutral, PublicKeyToken=a550803c4cd9dbb5, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Publish\EAS.Explorer.Entities.dll</HintPath>
+    </Reference>
+    <Reference Include="EAS.GReport.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a550803c4cd9dbb5, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Publish\EAS.GReport.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="EAS.MicroKernel, Version=5.0.0.0, Culture=neutral, PublicKeyToken=a550803c4cd9dbb5, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Publish\EAS.MicroKernel.dll</HintPath>
+    </Reference>
+    <Reference Include="EAS.Report.Controls, Version=3.2.0.0, Culture=neutral, PublicKeyToken=a550803c4cd9dbb5, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Publish\EAS.Report.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="EAS.Windows, Version=5.0.0.0, Culture=neutral, PublicKeyToken=a550803c4cd9dbb5, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Publish\EAS.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CategoryAddIn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CategoryAddIn.Designer.cs">
+      <DependentUpon>CategoryAddIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerEditor.designer.cs">
+      <DependentUpon>CustomerEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomerList.designer.cs">
+      <DependentUpon>CustomerList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeEditor.designer.cs">
+      <DependentUpon>EmployeeEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EmployeeList.designer.cs">
+      <DependentUpon>EmployeeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InQueryAddIn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InQueryAddIn.Designer.cs">
+      <DependentUpon>InQueryAddIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginInfo.cs" />
+    <Compile Include="ProductEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductEditor.designer.cs">
+      <DependentUpon>ProductEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductInAddIn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProductInAddIn.Designer.cs">
+      <DependentUpon>ProductInAddIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProductList.designer.cs">
+      <DependentUpon>ProductList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StockAddIn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StockAddIn.Designer.cs">
+      <DependentUpon>StockAddIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaleAddIn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SaleAddIn.Designer.cs">
+      <DependentUpon>SaleAddIn.cs</DependentUpon>
+    </Compile>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CategoryAddIn.resx">
+      <DependentUpon>CategoryAddIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerList.resx">
+      <DependentUpon>CustomerList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeList.resx">
+      <DependentUpon>EmployeeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InQueryAddIn.resx">
+      <DependentUpon>InQueryAddIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductEditor.resx">
+      <DependentUpon>ProductEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductInAddIn.resx">
+      <DependentUpon>ProductInAddIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductList.resx">
+      <DependentUpon>ProductList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockAddIn.resx">
+      <DependentUpon>StockAddIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleAddIn.resx">
+      <DependentUpon>SaleAddIn.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entities\Northwind.Entities.csproj">
+      <Project>{3B524826-776C-48DA-8B2C-F712ABAC3851}</Project>
+      <Name>Northwind.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Northwind.BLL.Contracts\Northwind.BLL.Contracts.csproj">
+      <Project>{3ADB1785-03AF-479C-B5B4-91817D476379}</Project>
+      <Name>Northwind.BLL.Contracts</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\Northwind.Entities.Category.datasource" />
+    <None Include="Properties\DataSources\Northwind.Entities.InBill.datasource" />
+    <None Include="Properties\DataSources\Northwind.Entities.InBillDetail.datasource" />
+    <None Include="Properties\DataSources\Northwind.Entities.SaleOrderDetail.datasource" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

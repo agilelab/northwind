@@ -1,0 +1,449 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Northwind.Entities</name>
+    </assembly>
+    <members>
+        <member name="T:Northwind.Entities.SaleOrder">
+            <summary>
+            实体对象 SaleOrder(销售订单)。
+            </summary>
+            <summary>
+            实体对象 SaleOrder(销售订单)。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.SaleOrder.OrderID">
+            <summary>
+            单据号 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.SaleOrder.CustomerID">
+            <summary>
+            客户ID 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.SaleOrder.EmployeeID">
+            <summary>
+            员工ID 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.SaleOrder.SaleTime">
+            <summary>
+            销售日期 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.SaleOrder.Employee">
+            <summary>
+            员工 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.SaleOrder.Customer">
+            <summary>
+            客户 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.SaleOrder.Details">
+            <summary>
+            订单明细 。
+            </summary>
+        </member>
+        <member name="T:Northwind.Entities.Product">
+            <summary>
+            实体对象 Product(产品字典)。
+            </summary>
+            <summary>
+            实体对象 Product(产品字典)。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Product.ProductID">
+            <summary>
+            产品ID 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Product.ProductName">
+            <summary>
+            产品名称 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Product.CategoryID">
+            <summary>
+            产品种类ID 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Product.Spec">
+            <summary>
+            规格 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Product.Unit">
+            <summary>
+            单位 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Product.UnitPrice">
+            <summary>
+            价格 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Product.InputCode">
+            <summary>
+            输入码 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Product.LMTime">
+            <summary>
+            最后更新时间 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Product.Category">
+            <summary>
+            产品种类 。
+            </summary>
+        </member>
+        <member name="T:Northwind.Entities.Employee">
+            <summary>
+            实体对象 Employee(员工)。
+            </summary>
+            <summary>
+            实体对象 Employee(员工)。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Employee.EmployeeID">
+            <summary>
+            员工ID 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Employee.Name">
+            <summary>
+            姓名 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Employee.Title">
+            <summary>
+            头衔 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Employee.BirthDate">
+            <summary>
+            生日 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Employee.HireDate">
+            <summary>
+            雇佣日期 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Employee.Address">
+            <summary>
+            地址 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Employee.Mail">
+            <summary>
+            邮件 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Employee.Phone">
+            <summary>
+            电话 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Employee.LMTime">
+            <summary>
+            最后更新时间 。
+            </summary>
+        </member>
+        <member name="T:Northwind.Entities.InBill">
+            <summary>
+            实体对象 InBill(入库单据)。
+            </summary>
+            <summary>
+            实体对象 InBill(入库单据)。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.InBill.OrderID">
+            <summary>
+            单据号 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.InBill.EmployeeID">
+            <summary>
+            员工ID 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.InBill.InTime">
+            <summary>
+            入库时间 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.InBill.Total">
+            <summary>
+            总金额 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.InBill.Employee">
+            <summary>
+            员工 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.InBill.Details">
+            <summary>
+            明细记录 。
+            </summary>
+        </member>
+        <member name="T:Northwind.Entities.InBillDetail">
+            <summary>
+            实体对象 InBillDetail(入库单据明细)。
+            </summary>
+            <summary>
+            实体对象 InBillDetail(入库单据明细)。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.InBillDetail.ID">
+            <summary>
+            ID 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.InBillDetail.OrderID">
+            <summary>
+            单据号 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.InBillDetail.ProductID">
+            <summary>
+            产品ID 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.InBillDetail.UnitPrice">
+            <summary>
+            单价 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.InBillDetail.Number">
+            <summary>
+            入库数量 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.InBillDetail.Product">
+            <summary>
+            产品字典 。
+            </summary>
+        </member>
+        <member name="T:Northwind.Entities.Customer">
+            <summary>
+            实体对象 Customer(客户)。
+            </summary>
+            <summary>
+            实体对象 Customer(客户)。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Customer.CustomerID">
+            <summary>
+            CustomerID 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Customer.Name">
+            <summary>
+            Name 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Customer.Address">
+            <summary>
+            地址 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Customer.Mail">
+            <summary>
+            邮件 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Customer.Phone">
+            <summary>
+            电话 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Customer.Fax">
+            <summary>
+            传真 。
+            </summary>
+        </member>
+        <member name="T:Northwind.Entities.Stock">
+            <summary>
+            实体对象 Stock(产品库存)。
+            </summary>
+            <summary>
+            实体对象 Stock(产品库存)。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Stock.ProductID">
+            <summary>
+            产品ID 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Stock.UnitPrice">
+            <summary>
+            单价 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Stock.Number">
+            <summary>
+            数量 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Stock.InputCode">
+            <summary>
+            输入码 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Stock.Product">
+            <summary>
+            产品字典 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Stock.ProductName">
+            <summary>
+            产品名称 。
+            </summary>
+        </member>
+        <member name="T:Northwind.Entities.Category">
+            <summary>
+            实体对象 Category(产品分类)。
+            </summary>
+            <summary>
+            实体对象 Category(产品分类)。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Category.CategoryID">
+            <summary>
+            类型ID 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Category.CategoryName">
+            <summary>
+            类型名 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Category.Description">
+            <summary>
+            类型说明 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.Category.LMTime">
+            <summary>
+            最后更新时间 。
+            </summary>
+        </member>
+        <member name="T:Northwind.Entities.DbEntities">
+            <summary>
+            数据上下文。
+            </summary>
+        </member>
+        <member name="M:Northwind.Entities.DbEntities.#ctor">
+            <summary>
+            初始化DbEntities对象实例。
+            </summary>
+        </member>
+        <member name="M:Northwind.Entities.DbEntities.#ctor(EAS.Data.Access.IDbProvider)">
+            <summary>
+            初始化DbEntities对象实例。
+            </summary>
+            <param name="dbProvider">数据库访问程序提供者。</param>
+        </member>
+        <member name="M:Northwind.Entities.DbEntities.#ctor(EAS.Data.Access.IDataAccessor)">
+            <summary>
+            初始化DbEntities对象实例。
+            </summary>
+            <param name="dataAccessor">数据访问器。</param>
+        </member>
+        <member name="M:Northwind.Entities.DbEntities.#ctor(EAS.Data.Access.IDataAccessor,EAS.Data.ORM.IOrmAccessor)">
+            <summary>
+            初始化DbEntities对象实例。
+            </summary>
+            <param name="dataAccessor">数据访问器。</param>
+            <param name="ormAccessor">Orm访问器。</param>
+        </member>
+        <member name="P:Northwind.Entities.DbEntities.Categorys">
+            <summary>
+            产品分类。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.DbEntities.Products">
+            <summary>
+            产品字典。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.DbEntities.Stocks">
+            <summary>
+            产品库存。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.DbEntities.InBills">
+            <summary>
+            入库单据。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.DbEntities.InBillDetails">
+            <summary>
+            入库单据明细。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.DbEntities.Employees">
+            <summary>
+            员工。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.DbEntities.Customers">
+            <summary>
+            客户。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.DbEntities.SaleOrders">
+            <summary>
+            销售订单。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.DbEntities.SaleOrderDetails">
+            <summary>
+            销售订单明细。
+            </summary>
+        </member>
+        <member name="T:Northwind.Entities.SaleOrderDetail">
+            <summary>
+            实体对象 SaleOrderDetail(销售订单明细)。
+            </summary>
+            <summary>
+            实体对象 SaleOrderDetail(销售订单明细)。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.SaleOrderDetail.ID">
+            <summary>
+            ID 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.SaleOrderDetail.OrderID">
+            <summary>
+            单据号 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.SaleOrderDetail.ProductID">
+            <summary>
+            产品ID 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.SaleOrderDetail.UnitPrice">
+            <summary>
+            单价 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.SaleOrderDetail.Number">
+            <summary>
+            入库数量 。
+            </summary>
+        </member>
+        <member name="P:Northwind.Entities.SaleOrderDetail.Product">
+            <summary>
+            产品 。
+            </summary>
+        </member>
+    </members>
+</doc>
