@@ -86,7 +86,7 @@ AgileEAS.NET网站：http://www.agileeas.net
 
 官方博客:http://eastjade.cnblogs.com
 
-github:https://github.com/agilelab/eas
+github:https://github.com/agilelab/northwind
 
 QQ群：113723486（AgileEAS SOA 平台）/上限1000人
 
