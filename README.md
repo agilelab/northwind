@@ -24,23 +24,23 @@
   
   楼主对Northwind做了一些简单的改进，主要是那方面的改进呢：
 
-    1）原来的Northwind主要重点再于客户和销售的管理，对采购入库业务处理的不是很好。
+   1）原来的Northwind主要重点再于客户和销售的管理，对采购入库业务处理的不是很好。
     
-    2）原来的Northwind对库存管理做的比较弱。
+   2）原来的Northwind对库存管理做的比较弱。
     
-    3）简化了原Northwind的客户、和销售管理，删除了对销售订单的区域等参数。
+   3）简化了原Northwind的客户、和销售管理，删除了对销售订单的区域等参数。
     
    修改完成的Northwind主要提供了以下两大业务模型，采购入库业务：
       
 ![github](https://github.com/agilelab/northwind/blob/master/Documents/Northwind1.png "northwind")  
  
-      销售订单业务：
+  销售订单业务：
 
 ![github](https://github.com/agilelab/northwind/blob/master/Documents/Northwind2.png "northwind")  
 
-     Northwind的设计准备是前一天做好的，然后楼主通过YY为大家提供现场的快速开发培训，边讲角边做开发，从生成代码到第一个手工完成业务模块“商品分类”、“商品字典”、使用界面生成器生成了两个业务模块“员工管理”、“客户管理”,一直做到“采购入库”、“采购入库查询”、“库存查询”、“销售订单业务”一共8个模块，涉及数据查询、界面编辑、分层业务模型、输入字典、报表设计、检点控件挑战、输入焦点变色、文本输入验证等大量的工具、控件及相关技术，理论上已经完成了Northwind案例的所有业务，当然如果要完美的话可以增加“收支报表”、“销售订单查询”、以及界面的美化，界面验证的完善。
+  Northwind的设计准备是前一天做好的，然后楼主通过YY为大家提供现场的快速开发培训，边讲角边做开发，从生成代码到第一个手工完成业务模块“商品分类”、“商品字典”、使用界面生成器生成了两个业务模块“员工管理”、“客户管理”,一直做到“采购入库”、“采购入库查询”、“库存查询”、“销售订单业务”一共8个模块，涉及数据查询、界面编辑、分层业务模型、输入字典、报表设计、检点控件挑战、输入焦点变色、文本输入验证等大量的工具、控件及相关技术，理论上已经完成了Northwind案例的所有业务，当然如果要完美的话可以增加“收支报表”、“销售订单查询”、以及界面的美化，界面验证的完善。
 
-     希望群里和各位朋友Northwind例没有完成的工具去做一做，把他做完，这一定是一个非常不错的项目模板，以下是几个做好的界面：
+  希望群里和各位朋友Northwind例没有完成的工具去做一做，把他做完，这一定是一个非常不错的项目模板，以下是几个做好的界面：
 
 ![github](https://github.com/agilelab/northwind/blob/master/Documents/Northwind3.png "northwind")  
 
@@ -50,35 +50,35 @@
 
 三、源代码、视频下载
 ==================
-     在培训过程之中，楼主全程开启录相，录了大概。2.1G的高清视屏，目前已经全部上传在百度网盘和我们的服务器，源代码已经上传到我们的SVN服务器和下载服务器，请大家下载视频和源代码，视频时长4小时，请大家耐性观看。
 
-     视频下载地址，百度云链接：https://pan.baidu.com/s/1V0akBerwzdPNm6ug2nffzw 提取码：4w9f 
+  在培训过程之中，楼主全程开启录相，录了大概。2.1G的高清视屏，目前已经全部上传在百度网盘和我们的服务器，源代码已经上传到我们的SVN服务器和下载服务器，请大家下载视频和源代码，视频时长4小时，请大家耐性观看。
+  
+  视频下载地址，百度云链接：https://pan.baidu.com/s/1V0akBerwzdPNm6ug2nffzw 提取码：4w9f 
 
-     官网服务器：1.AgileEASNET SOA 5平台配置.avi
+  官网服务器：1.AgileEASNET SOA 5平台配置.avi
 
-                     2.AgileEAS.NET SOA 5元数据设计器.avi
+  2.AgileEAS.NET SOA 5元数据设计器.avi
 
-                     3.Northwind.WinForm案例.第1段.avi
+  3.Northwind.WinForm案例.第1段.avi
 
-                     4.Northwind.WinForm案例.第2段.avi
+  4.Northwind.WinForm案例.第2段.avi
 
-                     5.Northwind.WinForm案例.第3段.avi
+  5.Northwind.WinForm案例.第3段.avi
 
-                     6.Northwind.WinForm案例.第4段.avi
+  6.Northwind.WinForm案例.第4段.avi
 
-     源代码下载，源代码请通过AgileEAS.NET SOA 中间件平台官方网站下载，或者通过以下方式下载：
+  源代码下载，源代码请通过AgileEAS.NET SOA 中间件平台官方网站下载，或者通过以下方式下载：
 
-     直接下载：AgileEAS.NET SOA  案例（Northwind）源码下载，http://118.24.209.136/downloads/eas/Northwind.rar。
+  SVN更新：https://118.24.209.136/svn/Northwind，登录用户:eas，密码eas.
 
-     SVN更新：https://118.24.209.136/svn/Northwind，登录用户:eas，密码eas.
+  github:https://github.com/agilelab/eas
 
-     github:https://github.com/agilelab/eas
-
-     Administrator,james,demo1用户登录密码均为：sa
+  Administrator,james,demo1用户登录密码均为：sa
 
 四、问题反馈
 ==================
-     麻烦大家在通过视频进行学习的时候能及时把问题反馈给楼主，或者有什么需要改进的一些建议都请向楼主直接反馈,以下是联系方式：
+  
+  麻烦大家在通过视频进行学习的时候能及时把问题反馈给楼主，或者有什么需要改进的一些建议都请向楼主直接反馈,以下是联系方式：
 
 团队网站：http://www.agilelab.cn
 
@@ -86,7 +86,7 @@ AgileEAS.NET网站：http://www.agileeas.net
 
 官方博客:http://eastjade.cnblogs.com
 
-github:https://github.com/agilelab/northwind
+github:https://github.com/agilelab/northwind 
 
 QQ群：113723486（AgileEAS SOA 平台）/上限1000人
 
