@@ -66,6 +66,9 @@
   5.Northwind.WinForm案例.第3段.avi
 
   6.Northwind.WinForm案例.第4段.avi
+  
+  如视频失效，请通过优酷观看：
+  https://i.youku.com/i/UMzA5ODE2MTA4
 
   源代码下载，源代码请通过AgileEAS.NET SOA 中间件平台官方网站下载，或者通过以下方式下载：
 
