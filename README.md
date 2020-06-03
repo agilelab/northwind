@@ -72,7 +72,7 @@
 
   源代码下载，源代码请通过AgileEAS.NET SOA 中间件平台官方网站下载，或者通过以下方式下载：
 
-  SVN更新：https://118.24.209.136/svn/Northwind，登录用户:eas，密码eas.
+  SVN更新：https://139.186.28.27/svn/Northwind，登录用户:eas，密码eas.
 
   github:https://github.com/agilelab/eas
 
